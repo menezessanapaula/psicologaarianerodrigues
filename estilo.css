@@ -10,7 +10,7 @@
     --cor-destaque: #5c302b;
     --cor-titulo: #ffffff;
 
-    --fonte-titulos: 'DM Serif Display', serif;
+    --fonte-titulos: 'DM Serif Display', sans-serif;
     --fonte-texto: 'Nunito', sans-serif;
     --fonte-frase: 'Dancing Script', sans-serif;
 }
@@ -60,6 +60,7 @@ body {
     color: var(--cor-titulo);
     font-size: 18px;
     font-weight: 400;
+    font-family: var(--fonte-titulos);
     padding: 0px 0px 10px 20px;
 }
 
